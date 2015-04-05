@@ -1,0 +1,294 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:red 3px solid
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid
+}
+body {
+  color:#555555;
+  font-family:'PT Sans', Arial, Helvetica, sans-serif;
+  font-size:13px;
+  font-weight:500;
+  line-height:1.8em;
+}
+
+header{
+background-image: url("/img/header.jpg");
+background-repeat: repeat-x; 
+background-position: top center;
+min-height: 713px;
+position: relative;
+}
+
+h1{
+  font-size:40px;
+  font-weight:600;
+  margin:0;
+  text-align:center;
+  text-transform:uppercase;
+  }
+
+.top_line{
+	min-height: 90px;
+	width: 100%;
+	top: 0;
+	-webkit-box-shadow:rgba(255,255,255,.3) 0,0,0,1px;
+	box-shadow:rgba(255,255,255,.3) 0,0,0,1px;
+	background-color: rgba(0,0,0,.6);
+}
+
+.logo_img{
+	float: left;
+	width: 250px;
+	height: 80px;
+	margin: 5px;
+	border: 1px solid #fff;
+}
+
+.main_mnu a {
+	font-size: 17px;
+}
+
+.main_mnu ul {
+	margin: 50px 20px 10px;
+	padding: 0;
+	list-style-type: none;
+	float: right;	
+}
+
+.main_mnu ul li {
+	display: inline-block;	
+}
+
+.main_mnu li {
+	margin-right: 30px;
+}
+
+.main_mnu a:hover{
+	text-decoration: none;
+}
+ 
+section{
+	padding: 90px 0px;
+}
+
+#section-about-us {
+  background:#F8F8F8;
+  height:100%;
+}
+
+.no-padding{
+	padding: 0;
+}
+
+.no-bottom {
+  margin-bottom:0;
+  padding-bottom:0;
+}
+
+.image-conteiner{
+	height: 522px;
+	background: url("/img/images7.jpg") 50% 50%;
+	-webkit-background-size: cover !important;
+	background-size: cover !important;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	float: left;
+
+}
+p.intro{
+	font-size: 16px;
+	line-height: 1.5em;
+	text-align: center;
+    
+}
+
+p {
+	margin-bottom: 20px !important;
+}
+
+h2 {
+  display:inline-block;
+  font-weight:500;
+  line-height:1.2em;
+  margin-bottom:30px;
+  margin: 0px auto;
+}
+.inner-padding {
+  padding:90px 0px 0px;
+}
+
+.spacer-single {
+  clear:both;
+  display:block;
+  height:30px;
+  width:100%;
+}
+
+p.lead {
+  font-size:16px;
+  font-weight:500;
+}
+
+h1 .small-border {
+  margin-top:30px;
+}
+
+.small-border {
+  display:block;
+  height:1px;
+  margin:20px auto 30px;
+  width:120px;
+}
+
+.feature-box-small-icon .text {
+  padding-left:70px;
+}
+
+.feature-box-small-icon i {
+  border-radius:60px;
+  color:#333333;
+  font-size:32px;
+  height:68px;
+  position:absolute;
+  text-align:center;
+  text-shadow:none;
+  width:68px;
+}
+
+i {
+  display:inline-block !important;
+  float:left;
+  margin-bottom:5px;
+  margin-right:10px;
+}
+
+.img-responsive {
+  display:inline-block;
+  margin: 0px auto;
+}
+
+.dark{
+	color: #eee;
+}
+
+.video-overlay {
+  background:rgba(0, 0, 0, 0.701961);
+  position:absolute;
+  width:100%;
+}
+
+.video-content{
+	margin-top: 100px;
+	position:absolute;
+    width:100%;
+    z-index:10;
+}
+
+.video-container {
+  height:500px;
+  left:0;
+  overflow:hidden;
+  top:0;
+  width:100%;
+}
+
+.allcenter{
+	margin: 0px auto;
+	text-align: center;
+}
+
+#reviews{
+	background:url("/img/bg-reviews.jpg") 50% 0 fixed ;
+}
+
+.block-size{
+	width: 2280px;
+	left: 0;
+	display: block !important;
+}
+
+.owl-item{
+	width: 380px;
+}
+
+.reviews{
+	display: block;
+    margin-bottom:10px;
+}
+
+.reviews-by{
+  margin-left:20px;
+  margin-top:-10px;
+}
+
+.reviews-company{
+  padding-top:20px;
+}
+
+.reviews blockquote {
+  background:rgba(0, 0, 0, 0.4);
+  border:none;
+  border-radius:8px;
+  font-size:13px;
+  font-style:normal;
+  font-weight:400;
+  line-height:1.6em;
+  margin:0;
+  padding:20px 30px 30px;
+}
+
+#testimonial-carousel{
+	display: block;
+}
+
+.de_carousel .item {
+  display:block;
+  width:100%;
+}
+
+footer {
+  color:#CCCCCC;
+  padding:80px 0;
+}
+
+footer p:only-of-type{
+  font-size:40px;
+  font-weight:bold;
+  line-height:55px;
+  text-transform:uppercase;
+}
+
+.footer-contact p{
+  font-size:30px;
+  font-weight:bold;
+  line-height:30px;
+  padding-bottom:10px;
+  text-align: left;
+}
+
+.footer-contact p:nth-child(even){
+	font-size:25px;
+	text-align: left; 
+}
+

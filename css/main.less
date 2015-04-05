@@ -1,0 +1,77 @@
+
+
+
+@color1:  #FF1835;  /* red */
+@color2:  #FFF;     /* white */
+@color3:  #000;     /* black */
+
+                  /* Цвета */
+
+li.active a, .id-color, 
+.feature-box-small-icon i,
+.main_mnu a:hover,
+footer p:only-of-type 
+{
+	color: @color1;
+}
+
+.small-border {
+	background-color: @color1; 
+}
+
+.footer-contact p,
+.main_mnu,
+.main_mnu a 
+{
+  color: @color2;
+}
+
+.dark,
+footer {
+	background-color: @color3;
+}
+
+
+
+            /* Div Class="howwework" */
+
+.work-plan {
+  margin-bottom:30px;
+     img{
+       width: 100%;
+     }
+}
+
+
+
+
+
+
+
+   /*примеси или процедуры - примешивание*/
+
+
+.text_style2(@param1:#f0f, @param2:5px)
+{
+	margin:@param2;
+	color:@param1;
+}
+
+
+  /*вложеные правила*/
+
+.content{
+	
+	ul{
+		
+		li{
+			
+			&:active{
+			
+			}
+			&:hover{
+			
+			}
+		}
+	}
+}
